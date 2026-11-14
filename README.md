@@ -12,6 +12,12 @@ Run the examples below from the directory containing `Redeem-Code.ps1`, or speci
 
 ## Quick start
 
+Fetch all active codes and redeem them for every player listed in `playerIDs.csv`:
+
+```powershell
+.\Redeem-Code.ps1 -Csv .\playerIDs.csv -RedeemAll
+```
+
 List codes currently shown as active on kingshot.net:
 
 ```powershell
